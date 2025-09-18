@@ -1,5 +1,11 @@
 # HTMLDiffPatch
 
+[![npm version](https://img.shields.io/npm/v/htmldiffpatch.svg)](https://www.npmjs.com/package/htmldiffpatch)
+[![npm downloads](https://img.shields.io/npm/dm/htmldiffpatch.svg)](https://www.npmjs.com/package/htmldiffpatch)
+[![license](https://img.shields.io/npm/l/htmldiffpatch.svg)](https://github.com/mattmccoy/htmldiffpatch/blob/main/LICENSE)
+[![build status](https://img.shields.io/github/actions/workflow/status/mattmccoy/htmldiffpatch/ci.yml?branch=main)](https://github.com/mattmccoy/htmldiffpatch/actions)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/htmldiffpatch.svg)](https://bundlephobia.com/package/htmldiffpatch)
+
 HTML diffing and patching using the same interfaces as jsondiffpatch.
 
 ## Installation
