@@ -60,7 +60,7 @@ const htmlDiffPatch = new HTMLDiffPatchImpl();
 
 // Export default instance and class
 export default htmlDiffPatch;
-export { HTMLDiffPatchImpl, Delta, DiffOptions, PatchOptions };
+export { Delta, DiffOptions, PatchOptions };
 
 // Named exports for compatibility
 export const diff = htmlDiffPatch.diff.bind(htmlDiffPatch);
