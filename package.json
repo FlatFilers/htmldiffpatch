@@ -1,6 +1,6 @@
 {
   "name": "htmldiffpatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTML diffing and patching using the same interfaces as jsondiffpatch",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
