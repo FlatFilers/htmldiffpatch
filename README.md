@@ -6,7 +6,7 @@
 [![build status](https://img.shields.io/github/actions/workflow/status/mattmccoy/htmldiffpatch/ci.yml?branch=main)](https://github.com/mattmccoy/htmldiffpatch/actions)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/htmldiffpatch.svg)](https://bundlephobia.com/package/htmldiffpatch)
 
-HTML diffing and patching using the same interfaces as jsondiffpatch.
+HTML diffing and patching using the same interfaces as [jsondiffpatch](https://github.com/benjamine/jsondiffpatch).
 
 ## Installation
 
@@ -165,12 +165,17 @@ Returns a new HTMLDiffPatch instance.
 
 ## Features
 
-- **jsondiffpatch compatibility**: Same API and interfaces
+- **[jsondiffpatch](https://github.com/benjamine/jsondiffpatch) compatibility**: Same API and interfaces
 - **HTML-aware**: Understands HTML structure, attributes, and text content
 - **DOM support**: Works with both strings and DOM elements
 - **Move detection**: Can detect when elements are moved rather than deleted/added
 - **TypeScript**: Full TypeScript support with type definitions
 - **Extensible**: Configurable with custom hash functions and options
+
+## Related Projects
+
+- **[jsondiffpatch](https://github.com/benjamine/jsondiffpatch)** - JSON diffing and patching (the inspiration for this library)
+- **[markdowndiffpatch](https://github.com/mattmccoy/markdowndiffpatch)** - Markdown diffing and patching
 
 ## License
 
